@@ -1,5 +1,8 @@
 {
-  "name": "blog",
+  "name": "rjleyva-blog",
+  "author": "RJ Leyva",
+  "description": "RJ Leyva's React Blog Built with Bun and TypeScript",
+  "license": "MIT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
