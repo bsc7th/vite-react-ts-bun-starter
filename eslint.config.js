@@ -1,3 +1,6 @@
+// Based on configuration from https://github.com/craftzdog/smooth-toc-example
+// Author: Takuya Matsuyama (craftzdog)
+
 import js from '@eslint/js'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'

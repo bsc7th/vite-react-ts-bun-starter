@@ -1,3 +1,6 @@
+// Based on configuration from https://github.com/craftzdog/smooth-toc-example
+// Author: Takuya Matsuyama (craftzdog)
+
 import { fileURLToPath, URL } from 'url'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
