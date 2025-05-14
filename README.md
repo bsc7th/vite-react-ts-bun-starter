@@ -50,5 +50,4 @@ bun run build
 
 ## License
 
-MIT - bsc7th
-GitHub: [bsc7th](basc7th/vite-react-ts-bun-starter)
+MIT - [bsc7th](basc7th/vite-react-ts-bun-starter)
