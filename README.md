@@ -12,6 +12,8 @@ A minimal Vite + React + TypeScript starter powered by **Bun**, with **Prettier*
 - [IanVS/prettier-plugin-sort-imports](https://github.com/IanVS/prettier-plugin-sort-imports)
 - [fi3ework/vite-plugin-checker](https://github.com/fi3ework/vite-plugin-checker)
 
+![vite-plugin-checker-screenshot](assets/vite-plugin-checker.jpeg)
+
 ## Features
 
 - Ultra-fast dev server and build via Vite + Bun
