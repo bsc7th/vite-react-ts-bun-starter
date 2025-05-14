@@ -1,7 +1,7 @@
 {
-  "name": "rjleyva-blog",
+  "name": "vite-react-ts-bun-starter",
   "author": "RJ Leyva",
-  "description": "RJ Leyva's React Blog Built with Bun and TypeScript",
+  "description": "A minimal Vite + React + TypeScript starter using Bun, with Prettier and import sorting built in.",
   "license": "MIT",
   "private": true,
   "version": "0.0.0",
