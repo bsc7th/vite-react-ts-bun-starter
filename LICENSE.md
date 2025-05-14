@@ -1,6 +1,9 @@
-MIT License
+This project is licensed under the MIT License.
 
 Copyright (c) 2025 bsc7th
+
+Some configuration files are based on the work of Takuya Matsuyama (craftzdog), available at:
+https://github.com/craftzdog/smooth-toc-example
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
