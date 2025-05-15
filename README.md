@@ -52,6 +52,20 @@ bun run format
 bun run build
 ```
 
+> ⚠️ Note for Neovim users:
+If you’re using a text editor like Neovim and import alias resolution (e.g. @/components/...) isn’t working, make sure your TypeScript LSP (ts_ls) is correctly configured.
+
+Update your LSP setup to explicitly register tsserver with the proper filetypes and root directory detection:
+
+```lua
+tsserver = {
+  filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
+  root_dir = require("lspconfig.util").root_pattern("tsconfig.json", "package.json", ".git"),
+}
+``` 
+
+This ensures the language server correctly picks up your tsconfig.json paths and resolves aliases like @/ properly.
+
 ## License
 
 MIT - [bsc7th](basc7th/vite-react-ts-bun-starter)
