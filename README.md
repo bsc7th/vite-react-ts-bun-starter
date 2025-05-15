@@ -53,7 +53,7 @@ bun run build
 ```
 
 > ⚠️ Note for Neovim users:
-If you’re using a text editor like Neovim and import alias resolution (e.g. @/components/...) isn’t working, make sure your TypeScript LSP (ts_ls) is correctly configured.
+> If you’re using a text editor like Neovim and import alias resolution (e.g. @/components/...) isn’t working, make sure your TypeScript LSP (ts_ls) is correctly configured.
 
 Update your LSP setup to explicitly register ts_ls with the proper filetypes and root directory detection:
 
@@ -62,13 +62,9 @@ tsserver = {
   filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
   root_dir = require("lspconfig.util").root_pattern("tsconfig.json", "package.json", ".git"),
 }
-``` 
+```
 
 This ensures the language server correctly picks up your tsconfig.json paths and resolves aliases like @/ properly.
-
-## License
-
-MIT - [bsc7th](basc7th/vite-react-ts-bun-starter)
 
 ## Credits
 
@@ -76,3 +72,11 @@ This starter was inspired by [Takuya Matsuyama (aka craftzdog / @devaslife)](htt
 [**How to build a smoothly animated table of contents (by a bonfire🔥) w/ Bun, Framer Motion, Zustand**](https://www.youtube.com/watch?v=4g26x6FzuBU)
 
 While this project is a simplified React starter focused on development tooling and project setup, you can explore his [repository](https://github.com/craftzdog/smooth-toc-example) to see how he integrates additional technologies.
+
+## 🛠 Full Setup & Configuration Guide
+
+For a complete walkthrough of how this starter is configured — including Bun’s `.gitattributes`, ESLint, Prettier, tsconfig, and Vite alias setup, see the [SETUP.md](./SETUP.md) file.
+
+## License
+
+MIT - [bsc7th](basc7th/vite-react-ts-bun-starter)
