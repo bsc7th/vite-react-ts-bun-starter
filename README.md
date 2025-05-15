@@ -55,7 +55,7 @@ bun run build
 > ⚠️ Note for Neovim users:
 If you’re using a text editor like Neovim and import alias resolution (e.g. @/components/...) isn’t working, make sure your TypeScript LSP (ts_ls) is correctly configured.
 
-Update your LSP setup to explicitly register tsserver with the proper filetypes and root directory detection:
+Update your LSP setup to explicitly register ts_ls with the proper filetypes and root directory detection:
 
 ```lua
 tsserver = {
