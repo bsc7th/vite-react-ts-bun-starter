@@ -1,5 +1,7 @@
 # Vite + React + TypeScript Starter (Bun Edition)
 
+![package.json screenshot](assets/package.json.jpeg)
+
 > ⚠️ Note: Some configuration files (e.g., ESLint, Prettier, TypeScript) are adapted from [craftzdog's smooth-toc-example](https://github.com/craftzdog/smooth-toc-example). These files are reproduced with credit for educational and starter purposes.
 
 A minimal Vite + React + TypeScript starter powered by **Bun**, with **Prettier**, **import sorting**, and **type-checking** via `vite-plugin-checker` — for a fast and consistent dev experience.
